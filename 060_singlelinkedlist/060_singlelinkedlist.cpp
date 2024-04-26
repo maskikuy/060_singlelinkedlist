@@ -76,4 +76,20 @@ void addNode() {
             START = current->next;
         return true;
     }
+    bool listEmpty() {
+        if (START == NULL)
+            return true;
+        else
+            return false;
+
+    }
+    void traverse() {
+        if (listEmpty()) {
+            cout << "List Kosong" << endl;
+            system("pause");
+            system("cls");
+            return;
+        }
+        else {
+
 
