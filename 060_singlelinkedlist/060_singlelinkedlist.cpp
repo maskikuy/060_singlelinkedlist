@@ -108,5 +108,8 @@ void addNode() {
         else {
             int nim;
             cout << "Masukkan NIM: ";
+            cin >> nim;
+            Node* currentNode = START;
+            while (currentNode != NULL) {
 
 
